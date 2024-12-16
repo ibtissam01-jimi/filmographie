@@ -52,7 +52,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
-    justify-content: center; /* Center the cards */
+    justify-content: center; 
   }
   
   .MovieList div {
@@ -63,10 +63,10 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    display: flex; /* Enable flexbox for alignment */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
   }
   
   .MovieList div:hover {

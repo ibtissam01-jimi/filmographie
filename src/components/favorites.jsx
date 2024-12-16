@@ -3,7 +3,7 @@ const Favorites = ({ favorites }) => (
     <div className="Favorites">
       <h2>Films Favoris</h2>
       {favorites.length === 0 ? (
-        <p>Aucun film ajouté aux favoris.</p>
+        <p>Aucun film ajouté comme favoris.</p>
       ) : (
         <ul>
           {favorites.map((movie) => (

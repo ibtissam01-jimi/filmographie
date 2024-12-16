@@ -1,6 +1,6 @@
 import React from "react";
 
-const MovieDetails = ({ movie }) => (
+const MovieDetails = ({movie}) => (
     <div className="MovieDetails">
       <h2>{movie.title}</h2>
       <p>Réalisateur : {movie.director}</p>
